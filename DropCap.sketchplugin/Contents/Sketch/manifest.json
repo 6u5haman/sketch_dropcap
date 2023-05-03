@@ -1,0 +1,25 @@
+{
+  "author" : "Alaa Haytham",
+  "icon": "ico.png",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "Apply",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "title" : "Drop Cap",
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ]
+  },
+  "identifier" : "com.example.sketch.dd8f1566-1034-40ae-be83-30e14b929f66",
+  "version" : "1.0",
+  "description" : "Apply a drop cap on a text",
+  "authorEmail" : "6u5haman@gmail.com",
+  "name" : "🟡 Drop Cap"
+}
